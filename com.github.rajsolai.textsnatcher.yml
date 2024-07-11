@@ -41,8 +41,8 @@ modules:
       - "-Ddocs=false"
     sources:
       - type: archive
-        url: https://github.com/flatpak/libportal/releases/download/0.5/libportal-0.5.tar.xz
-        sha256: d8c8cb18a34e5eeb26a39c94044c955995b01de0e139caac5e18c076cf821b3b
+        url: https://github.com/flatpak/libportal/releases/download/0.7.1/libportal-0.7.1.tar.xz
+        sha256: 297b90b263fad22190a26b8c7e8ea938fe6b18fb936265e588927179920d3805
 
   - name: com.github.rajsolai.textsnatcher
     buildsystem: meson
