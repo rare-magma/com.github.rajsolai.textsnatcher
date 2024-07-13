@@ -40,6 +40,7 @@ modules:
       - "-Dbackend-gtk3=enabled"
       - "-Ddocs=false"
       - "-Dintrospection=false"
+      - "-Dvapi=false"
     sources:
       - type: archive
         url: https://github.com/flatpak/libportal/releases/download/0.7.1/libportal-0.7.1.tar.xz
