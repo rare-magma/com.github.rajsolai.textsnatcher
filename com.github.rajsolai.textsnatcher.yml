@@ -38,12 +38,12 @@ modules:
     builddir: true
     config-opts:
       - "--libdir=/app/lib"
-      - "--buildtype=debugoptimized",
+      - "--buildtype=debugoptimized"
       - "-Dintrospection=false"
-      - "-Dbackend-gtk3=enabled",
-      - "-Dbackend-gtk4=disabled",
-      - "-Dbackend-qt5=disabled",
-      - "-Ddocs=false",
+      - "-Dbackend-gtk3=enabled"
+      - "-Dbackend-gtk4=disabled"
+      - "-Dbackend-qt5=disabled"
+      - "-Ddocs=false"
       - "-Dtests=false"
     sources:
       - type: archive
